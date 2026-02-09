@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Fahri Kusumah - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+        }
+
+        .accent-gradient {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-size: 1.875rem;
+            font-weight: 700;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 50px;
+            height: 4px;
+            background: #3b82f6;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <span class="text-xl font-bold tracking-wider text-blue-500">FAHRI.K</span>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#tentang" class="hover:text-blue-400 px-3 py-2 transition">Tentang</a>
+                        <a href="#pendidikan" class="hover:text-blue-400 px-3 py-2 transition">Pendidikan</a>
+                        <a href="#organisasi" class="hover:text-blue-400 px-3 py-2 transition">Organisasi</a>
+                        <a href="#keahlian" class="hover:text-blue-400 px-3 py-2 transition">Keahlian</a>
+                        <a href="#kontak" class="hover:text-blue-400 px-3 py-2 transition">Kontak</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/3 flex justify-center">
+                <div class="relative w-64 h-80 rounded-2xl overflow-hidden border-4 border-blue-500 shadow-2xl shadow-blue-500/20">
+                    <!-- Menggunakan foto yang diupload -->
+                    <img src="629950381_4588145898079893_6803892458184794574_n_.jpg" 
+                         alt="Fahri Kusumah" 
+                         class="w-full h-full object-cover"
+                         onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=500&h=600'">
+                </div>
+            </div>
+            <div class="md:w-2/3 text-center md:text-left">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Fahri <span class="text-blue-500">Kusumah</span></h1>
+                <p class="text-xl text-slate-400 mb-6 italic">Pecinta Informatika & Teknologi Informasi</p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <div class="bg-slate-800 px-4 py-2 rounded-full flex items-center gap-2">
+                        <i class="fas fa-calendar-alt text-blue-400"></i>
+                        <span>29 April 2008</span>
+                    </div>
+                    <div class="bg-slate-800 px-4 py-2 rounded-full flex items-center gap-2">
+                        <i class="fas fa-futbol text-blue-400"></i>
+                        <span>Hobby: Sepak Bola</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Wrapper -->
+    <main class="max-w-6xl mx-auto px-4 space-y-24 pb-24">
+
+        <!-- Tentang Diri -->
+        <section id="tentang" class="scroll-mt-24">
+            <h2 class="section-title">Tentang Diri</h2>
+            <div class="glass-card p-8">
+                <p class="text-lg leading-relaxed text-slate-300">
+                    Nama saya adalah <span class="text-blue-400 font-semibold">Fahri Kusumah</span>. Saya adalah seorang pelajar yang memiliki ketertarikan pada bidang informatika dan teknologi informasi. Seiring dengan perkembangan teknologi yang semakin pesat, saya menyadari bahwa kemampuan di bidang informatika sangat penting dalam kehidupan sehari-hari maupun di masa depan.
+                </p>
+            </div>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="pendidikan" class="scroll-mt-24">
+            <h2 class="section-title">Pendidikan</h2>
+            <div class="grid gap-6">
+                <div class="glass-card p-6 flex items-start gap-6 border-l-4 border-l-blue-500">
+                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500">
+                        <i class="fas fa-school text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold">SMA KP Baleendah</h3>
+                        <p class="text-blue-400">2023 - 2026 (Sekarang)</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 flex items-start gap-6 border-l-4 border-l-blue-500">
+                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500">
+                        <i class="fas fa-school text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold">SMP KP Baleendah</h3>
+                        <p class="text-blue-400">2020 - 2023 (Lulus)</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 flex items-start gap-6 border-l-4 border-l-blue-500">
+                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500">
+                        <i class="fas fa-graduation-cap text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold">SDN 02 Leuwi Bandung</h3>
+                        <p class="text-blue-400">2014 - 2020 (Lulus)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pengalaman Organisasi -->
+        <section id="organisasi" class="scroll-mt-24">
+            <h2 class="section-title">Pengalaman Organisasi</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Organisasi Baru Ditambahkan Sesuai Permintaan -->
+                <div class="glass-card p-6 hover:bg-slate-800/50 transition border border-blue-500/30">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-blue-400">Anggota OSIS</h3>
+                        <span class="bg-blue-500 text-white text-xs px-2 py-1 rounded">Baru</span>
+                    </div>
+                    <p class="text-slate-400 mb-2">SMA KP Baleendah</p>
+                    <p class="text-sm italic text-slate-500">Tahun Aktif: 2024 - 2025</p>
+                    <p class="mt-4 text-slate-300">Bertanggung jawab dalam mengkoordinasi kegiatan sekolah dan menjalin komunikasi antar siswa.</p>
+                </div>
+                <!-- Tempat Organisasi Lainnya Jika Ada -->
+                <div class="glass-card p-6 hover:bg-slate-800/50 transition">
+                    <h3 class="text-xl font-bold text-blue-400">Kapten Tim Sepak Bola Sekolah</h3>
+                    <p class="text-slate-400 mb-2">SMP KP Baleendah</p>
+                    <p class="text-sm italic text-slate-500">Tahun Aktif: 2022 - 2023</p>
+                    <p class="mt-4 text-slate-300">Memimpin tim dalam berbagai kompetisi antar sekolah dan mengatur strategi pertandingan.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Baris Kedua: Keahlian, Sertifikat, Bahasa -->
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Keahlian -->
+            <section id="keahlian" class="scroll-mt-24">
+                <h2 class="section-title">Keahlian</h2>
+                <div class="glass-card p-6">
+                    <div class="flex items-center gap-4 bg-slate-800 p-4 rounded-xl">
+                        <i class="fas fa-check-circle text-green-400 text-xl"></i>
+                        <span class="text-lg font-semibold text-slate-200">Disiplin</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sertifikat -->
+            <section id="sertifikat" class="scroll-mt-24">
+                <h2 class="section-title">Sertifikat</h2>
+                <div class="glass-card p-6">
+                    <div class="flex items-center gap-4 bg-slate-800 p-4 rounded-xl">
+                        <i class="fas fa-certificate text-yellow-400 text-xl"></i>
+                        <span class="text-lg font-semibold text-slate-200">Sepak Bola</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bahasa -->
+            <section id="bahasa" class="scroll-mt-24">
+                <h2 class="section-title">Bahasa</h2>
+                <div class="glass-card p-6">
+                    <div class="flex items-center gap-4 bg-slate-800 p-4 rounded-xl">
+                        <i class="fas fa-language text-blue-400 text-xl"></i>
+                        <span class="text-lg font-semibold text-slate-200">Indonesia</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Kontak & Media Sosial -->
+        <section id="kontak" class="scroll-mt-24">
+            <h2 class="section-title">Kontak & Media Sosial</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 space-y-6">
+                    <div class="flex items-center gap-6">
+                        <div class="w-12 h-12 accent-gradient rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm">Nomor Telepon</p>
+                            <p class="text-lg font-semibold">081293185003</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <div class="w-12 h-12 accent-gradient rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm">Alamat</p>
+                            <p class="text-lg font-semibold">Kp.cijagra RT02/RW17</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card p-8 space-y-6">
+                    <div class="flex items-center gap-6">
+                        <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center text-xl border border-slate-700">
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm">Sosial Media</p>
+                            <p class="text-lg font-semibold">Tiktok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-12 text-center text-slate-500">
+        <p>&copy; 2024 Fahri Kusumah. Dibuat dengan semangat teknologi.</p>
+    </footer>
+
+</body>
+</html>
